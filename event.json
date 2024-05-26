@@ -1,0 +1,39 @@
+{
+    "version": "2.0",
+    "routeKey": "POST /create",
+    "rawPath": "/create",
+    "rawQueryString": "",
+    "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "content-length": "90",
+      "content-type": "application/json",
+      "host": "32mtw35ugk.execute-api.us-east-1.amazonaws.com",
+      "postman-token": "2f46b84c-3a34-4cab-8835-06eabb8fdbfa",
+      "user-agent": "PostmanRuntime/7.39.0",
+      "x-amzn-trace-id": "Root=1-66534d2a-5e6650a32d1033cf44c11ac5",
+      "x-forwarded-for": "187.84.92.204",
+      "x-forwarded-port": "443",
+      "x-forwarded-proto": "https"
+    },
+    "requestContext": {
+      "accountId": "472654153259",
+      "apiId": "32mtw35ugk",
+      "domainName": "32mtw35ugk.execute-api.us-east-1.amazonaws.com",
+      "domainPrefix": "32mtw35ugk",
+      "http": {
+        "method": "POST",
+        "path": "/create",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "187.84.92.204",
+        "userAgent": "PostmanRuntime/7.39.0"
+      },
+      "requestId": "YYj-wgdYoAMEYsQ=",
+      "routeKey": "POST /create",
+      "stage": "$default",
+      "time": "26/May/2024:14:54:34 +0000",
+      "timeEpoch": 1716735274981
+    },
+    "body": "{\r\n    \"name\": \"Ihago\",\r\n    \"email\": \"teste@email.com\",\r\n    \"message\": \"test message\"\r\n}",
+    "isBase64Encoded": false
+  }
