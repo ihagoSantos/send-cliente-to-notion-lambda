@@ -1,0 +1,17 @@
+# "org" ensures this Service is used with the correct Serverless Framework Access Key.
+org: ihagosantos
+# "app" enables Serverless Framework Dashboard features and sharing them with other Services.
+app: send-cliente-to-notion-lambda
+# "service" is the name of this project. This will also be added to your AWS resource names.
+service: send-cliente-to-notion-lambda
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+functions:
+  sendClientToNotionLambda:
+    handler: handler.send
+    events:
+      - httpApi:
+          path: /create
+          method: post
